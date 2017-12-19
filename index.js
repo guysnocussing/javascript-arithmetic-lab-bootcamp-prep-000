@@ -21,3 +21,9 @@ function inc(n) {
 function dec(n) {
   return --n;
 }
+
+function makeInt(n) {
+   if (!isNaN(parseInt) && parseInt(n) === typeof 'number') {
+     return parseInt(n);
+   }
+}
