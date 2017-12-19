@@ -24,6 +24,8 @@ function dec(n) {
 
 function makeInt(n) {
    if (!isNaN(parseInt(n)) && parseInt(n) === typeof 'number') {
-     return parseInt(n);
+     return 0;
+   } else {
+     return n;
    }
 }
